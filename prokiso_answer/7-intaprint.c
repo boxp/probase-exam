@@ -2,9 +2,7 @@
 
 int main(int argc, char const* argv[])
 {
-	int a;
-
-      	a = 12;
+	int a = 12;
 
 	printf("a = %d\n", a);
 	return 0;

@@ -2,10 +2,8 @@
 
 int main(int argc, char const* argv[])
 {
-	int a;
+	float d = 3.141592;
 
-      	a = 12;
-
-	printf("a = %d\n", a);
+	printf("d = %f\n", d);
 	return 0;
 }

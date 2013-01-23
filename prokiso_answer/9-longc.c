@@ -2,10 +2,8 @@
 
 int main(int argc, char const* argv[])
 {
-	int a;
+	long c = 182964;
 
-      	a = 12;
-
-	printf("a = %d\n", a);
+	printf("c = %d\n", c);
 	return 0;
 }

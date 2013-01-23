@@ -2,10 +2,8 @@
 
 int main(int argc, char const* argv[])
 {
-	int a;
+	char b = 'p';
 
-      	a = 12;
-
-	printf("a = %d\n", a);
+	printf("b = %c \n", b);
 	return 0;
 }
