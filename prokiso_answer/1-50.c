@@ -1,4 +1,3 @@
-/* 12fr039 kamiyama takashi */
 #include <stdio.h>
 #include <math.h>
 int main(void){
