@@ -1,16 +1,13 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(int argc, char const* argv[])
 {
-	int a,b;
+  int r;
 
-	scanf("%d", &a);
-	scanf("%d", &b);
+  scanf("%d", &r);
 
-	printf("sum = %d\n", a + b);
-	printf("dif = %d\n", a - b);
-	printf("multi = %d\n", a * b);
-	printf("div = %d\n", a / b);
-	printf("surplus= %d\n", a % b);
-	return 0;
+  printf("%f\n", 4*pow(r,2)*3.14/3);
+  
+  return 0;
 }
