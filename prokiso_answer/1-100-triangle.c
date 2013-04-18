@@ -6,10 +6,8 @@ int main(int argc, char const* argv[])
 
 	scanf("%d", &a);
 
-	// a line
-	for (i = 1; i <= a; i++) {
-		//a column
-		for (j = 1; j <= i; j++) {
+	for (i = 0; i < a; i++) {
+		for (j = 0; j < a; j++) {
 			printf("*");
 		}
 		printf("\n");
