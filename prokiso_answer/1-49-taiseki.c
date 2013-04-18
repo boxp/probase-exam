@@ -7,7 +7,7 @@ int main(int argc, char const* argv[])
 
   scanf("%d", &r);
 
-  printf("%f\n", 4*pow(r,2)*3.14/3);
+  printf("%f\n", 4*pow(r,3)*3.14/3);
   
   return 0;
 }
